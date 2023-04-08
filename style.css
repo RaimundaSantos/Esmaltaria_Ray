@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Anuphan', sans-serif;
+}
+
+h1 {
+  font-family: 'Alkatra', cursive;
+  font-size: 4rem;
+}
+.menu {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #add8e6;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+.menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover{
+  color: white;
+}
+.esmalteria img {
+ width: 30%;
+ padding: 20px;
+}
+.esmalteria{
+  display: flex;
+
+}
+
+.esmalteria div {
+  display: block;
+  padding: 10px;
+  text-align: justify;
+  margin: auto;
+}
+
+
+.serviço-menu h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: #add8e6;
+ padding: 20px;
+ font-size: 2rem;
+}
+.serviços{
+  display: flex;
+
+  margin: 10px;
+  padding: 20px;
+  justify-content: end;
+  align-items: flex-end;
+
+}
+ 
+.serviços div img{
+  width:75%;
+
+  
+ }
+
+ .serviços div p{
+  font-size: 20px;
+ }
+ 
+ .contatos h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: #add8e6;
+ padding: 20px;
+ font-size: 2rem;
+ }
+
+ .contato-ad{
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  
+ }
+
+ .contato-ad a{
+  text-decoration: none;
+  color: black;
+ }
+
+ .contato-ad a:hover{
+  color: black;
+  background-color:#add8e6;
+}
